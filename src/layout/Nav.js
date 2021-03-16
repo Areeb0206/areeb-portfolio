@@ -5,7 +5,7 @@ import { Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import './navbar.css';  
+import './Navbar.css';  
 
 
 function Navbr() {
