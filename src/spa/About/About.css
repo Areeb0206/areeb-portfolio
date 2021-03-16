@@ -170,12 +170,12 @@ margin: auto;height: auto;
 
 .in-about p::after{
 content: '';
-position: absolute;width: 40px;height: 2px; background: white;right: 18%;
+position: absolute;width: 40px;height: 1px; background: white;right: 18%;
 
 }
 .in-about p::before{
 content: '';
-position: absolute;width: 40px;height: 2px; background: white;left: 18%
+position: absolute;width: 40px;height: 1px; background: white;left: 18%
 
 }
 

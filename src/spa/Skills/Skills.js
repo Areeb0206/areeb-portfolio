@@ -22,7 +22,7 @@ export default function Skills() {
 
 
                                    <div className="html">
-		                                    <div className="html-text">HTML</div>
+		                                    <div className="html-text html"></div>
 				                             <div className="html-progress">
 
 
@@ -41,7 +41,7 @@ export default function Skills() {
 
 
 		                                <div className="html">
-		                                    <div className="html-text">CSS</div>
+		                                    <div className="html-text css"></div>
 				                             <div className="html-progress">
 
 
@@ -59,7 +59,7 @@ export default function Skills() {
 
 
 		                                <div className="html">
-		                                    <div className="html-text">Javascript</div>
+		                                    <div className="html-text js"></div>
 				                             <div className="html-progress">
 
 
@@ -106,7 +106,7 @@ export default function Skills() {
 
 
                                    <div className="html">
-		                                    <div className="html-text">React</div>
+		                                    <div className="html-text react"></div>
 				                             <div className="html-progress">
 
 
@@ -125,7 +125,7 @@ export default function Skills() {
 
 
 		                                <div className="html">
-		                                    <div className="html-text">Python</div>
+		                                    <div className="html-text python"></div>
 				                             <div className="html-progress">
 
 
@@ -143,7 +143,7 @@ export default function Skills() {
 
 
 		                                <div className="html">
-		                                    <div className="html-text">UI Design</div>
+		                                    <div className="html-text uiux"></div>
 				                             <div className="html-progress">
 
 
@@ -180,7 +180,17 @@ export default function Skills() {
 
                          <div className="svg">
 		                
+                              <div className="skill-heading">
 
+                                  <h3>My skills</h3>
+                                  <p>what i know</p>
+ 
+
+
+
+
+
+                              </div>
 		                       <div className="in-svg">
 
 

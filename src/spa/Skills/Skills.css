@@ -16,7 +16,7 @@
 .inskills{
 	width: 80%;
 	margin: auto;
-	display: grid;grid-template-columns: 30% 30% 40%;
+	display: grid;grid-template-columns: 20% 30% 30%;
 }
 
 
@@ -25,10 +25,10 @@
 }
 
 .progress-bars-left{
-	display: flex;flex-direction: column;grid-gap: 30px;
+	display: flex;flex-direction: column;grid-gap: 30px;margin-top: 40px;
 }
 .progress-bars-right{
-
+margin-top: 40px;
 	display: flex;flex-direction: column;grid-gap: 30px;
 
 
@@ -38,15 +38,103 @@
 letter-spacing: 2px;
 }
 
+.html-text.html{margin-top: 10px;
+	background-image: url(../../images/html.svg);height: 25px ;width: 30px;background-repeat: no-repeat;position: relative;
+}
+.html-text.html::after{position: absolute;left: 40px;
+	font-size: 17px;
+content: 'Html'
+}
+.html-text.css{
+margin-top: 10px;
+	background-image: url(../../images/css.png);height: 25px ;width: 30px;background-repeat: no-repeat;position: relative;background-size: contain;
+
+}
+.html-text.css::after{position: absolute;left: 40px;
+	font-size: 17px;
+content: 'CSS'
+}
+
+.html-text.js{
+margin-top: 10px;
+	background-image: url(../../images/js.png);height: 30px ;width: 30px;background-repeat: no-repeat;position: relative;background-size: contain;
+
+}
+.html-text.js::after{position: absolute;left: 40px;
+	font-size: 17px;
+content: 'Javascript'
+}
+
+
+.html-text.react{
+margin-top: 10px;
+	background-image: url(../../images/react.svg);height: 25px ;width: 30px;background-repeat: no-repeat;position: relative;background-size: contain;
+
+}
+.html-text.react::after{position: absolute;left: 40px;
+	font-size: 17px;
+content: 'React';
+}
+
+
+
+.html-text.python{
+margin-top: 10px;
+	background-image: url(../../images/python.png);height: 25px ;width: 30px;background-repeat: no-repeat;position: relative;background-size: contain;
+
+}
+.html-text.python::after{position: absolute;left: 40px;
+	font-size: 17px;
+content: 'React';
+}
+
+
+
+.html-text.uiux{
+margin-top: 10px;
+	background-image: url(../../images/uiux.png);height: 40px ;width: 40px;background-repeat: no-repeat;position: relative;background-size: contain;
+
+}
+.html-text.uiux::after{position: absolute;left: 40px;
+	font-size: 17px;
+content: 'UI/UX';
+}
+
+
+
+
+
 
 .in-svg{
 	background-image: url(../../Three.svg);
 	background-repeat: no-repeat;
-	width: 400px;height: 400px;background-size: contain;
-	margin-top: 40px;
+	width: 350px;height: 350px;background-size: contain;margin-left: 70px;
+	
 }
 
 
+
+.svg{
+	display: flex;flex-direction: column;grid-gap: 50px;
+}
+.svg h3{color: white;font-family: 'Poppins',sans-serif;font-size: 30px;
+letter-spacing: 1px;word-spacing: 5px;text-align: center;
+
+}
+.svg p{
+	color: white;text-align: center;position: relative;font-size: 15px;color: #fcaa22;letter-spacing: 2px;
+}
+
+
+.svg p::after{
+content: '';
+position: absolute;width: 40px;height: 2px; background: white;right: 23%;top: 43%
+
+}
+.svg p::before{
+content: '';
+position: absolute;width: 40px;height: 2px; background: white;left:23%;top: 43%;
+}
 
 
 @media (max-width: 425px){
@@ -70,20 +158,20 @@ letter-spacing: 2px;
 .inskills{
 	width: 80%;
 	margin: auto;
-	display: flex;flex-direction: column-reverse;grid-gap: 20px;
+	display: flex;flex-direction: column-reverse;grid-gap: 0;
 }
 
 
 .html{
-	display: flex;flex-direction: column-reverse;grid-gap:0px;position: relative;
+	position: relative;display: grid;grid-template-columns: 60% 40%;
 }
 
 .progress-bars-left{
-	display: flex;flex-direction: column;grid-gap: 20px;position: relative;top: -60px;
+	display: flex;flex-direction: column;grid-gap: 20px;position: relative;margin-bottom: 20px;
 }
 .progress-bars-right{
 
-	display: flex;flex-direction: column;grid-gap: 20px;position: relative;top: -60px;
+	display: flex;flex-direction: column;grid-gap: 20px;position: relative;
 
 
 }
@@ -95,8 +183,35 @@ letter-spacing: 2px;
 .in-svg{
 	background-image: url(../../Three.svg);
 	background-repeat: no-repeat;
-	width: 250px;height: 300px;background-size: contain;
-	margin-top:20px ;
+	width: 250px;height: 250px;background-size: contain;
+	margin-top:20px ;margin-left: 0px;
+}
+
+
+
+
+.svg{
+	display: flex;flex-direction: column-reverse;
+grid-gap: 0px;
+}
+.svg h3{color: white;font-family: 'Poppins',sans-serif;font-size: 25px;
+letter-spacing: 1px;word-spacing: 5px;text-align: center;
+
+}
+.svg p{
+	color: white;text-align: center;position: relative;font-size: 13px;color: #fcaa22;letter-spacing: 2px;
+}
+
+
+.svg p::after{
+content: '';
+position: absolute;width: 30px;height: 1px; background: white;right: 18%;top: 43%;margin-top: 0px;
+
+}
+.svg p::before{
+content: '';
+position: absolute;width: 30px;height:1px; background: white;left:18%;top: 43%;margin-top: 0px;
+
 }
 
 
