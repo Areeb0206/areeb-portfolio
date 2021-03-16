@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Poppins',sans-serif;background: black;
+}
+
+.navbar{
+	padding: 40px;
+}
+.innavbar{	width: 100%;
+
+	display:grid;grid-template-columns: 40% 53%;
+}
+
+li{
+
+	list-style-type: none !important;
+}
+a{
+	text-decoration: none !important;
+}
+.portfolio{width: 80%;
+	margin: auto;
+}
+.span{
+	color:rgb(252,170,34);font-weight: 100;
+	font-family: 'Poppins',sans-serif;letter-spacing: 1px;
+	font-size: 30px;
+}
+.porto{
+	color:white;
+	font-family: 'Poppins',sans-serif;
+	font-size: 40px;letter-spacing: 4px;
+}
+.headings{
+
+	display:flex;flex-direction: row;grid-gap: 40px;transform:scaleY(1);transition: all 1s ease;
+}
+.link{font-weight: 100;
+		color:rgb(252,170,34);font-size: 25px;
+letter-spacing: 2px;transition: all 1s ease;
+
+}
+.link:hover{position: relative;
+color: white;
+
+transition: all 1s ease;
+
+}
+
+
+.link:hover::after{
+
+	content: '';left: 5px;top: -10px;
+position: absolute;width: 20px;height: 2px;background: white;transition: all 1s ease;
+
+}
+
+
+
+
+@media (max-width: 425px)
+
+
+{
+
+.collapse{
+	background: transparent;
+}
+.toggle{
+	background:white;width: 50px;height: 30px;
+	font-size: 15px;margin-top:20px
+}
+
+.navbar{
+	padding: 0px;width: 90%;
+	text-align: center;
+}
+.innavbar{	width: 100%;
+
+	display:grid;grid-template-columns: 40% 50%;grid-gap: 80px;
+}
+
+li{
+
+	list-style-type: none !important;
+}
+a{
+	text-decoration: none !important;
+}
+.portfolio{margin-top: 20px;
+}
+.span{
+	color:rgb(252,170,34);font-weight: 500;
+	font-family: 'Poppins',sans-serif;letter-spacing: 1px;
+	font-size: 30px;
+}
+.porto{
+	color:white;padding: 20px;
+	font-family: 'Poppins',sans-serif;
+	font-size: 20px;letter-spacing: 1px;
+}
+.headings{text-align: center;position: relative;top: -30px;
+
+	display:flex;flex-direction: column;grid-gap: 20px;
+}
+.link{font-weight: 100;text-align: center;width: 100%;
+
+		color:rgb(252,170,34);font-size: 20px;
+}
+
+
+
+
+
+}

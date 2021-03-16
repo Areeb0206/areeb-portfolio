@@ -1,0 +1,236 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Secular+One&display=swap');
+
+
+
+.index{
+	width: 100%;
+}
+.home{
+	width: 95%;margin: auto;height: 75vh;display: grid;grid-template-columns: 50% 43%;
+
+
+
+}
+
+.inhome{
+	width:100%;
+	display: flex;flex-direction:column;grid-gap: 60px;padding: 30px;margin-top: 40px;
+
+
+
+
+	
+}
+
+.first{letter-spacing: 2px;text-transform: uppercase;
+	font-weight: 100;font-size:50px;color: white;font-family: 'Poppins', sans-serif;letter-spacing: 3px;color: rgb(252,170,34);
+
+}
+.intro{
+	display: flex;flex-direction: column;
+}
+
+.intro h2{	font-size: 30px;letter-spacing: 4px;	color: white;
+
+text-transform: lowercase;
+}
+
+.intro h3{	color: rgb(252,170,34);
+	font-weight: 500;font-size: 40px;letter-spacing: 2px;word-spacing: 5px;
+}
+.intro .comma{
+	color: rgb(252,170,34);
+}
+.rest{
+	font-size: 30px;letter-spacing: 3px;	
+
+text-transform: lowercase;
+}
+
+
+.text-loop{
+
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+
+	display: flex;flex-direction: row;grid-gap: 30px;
+}
+.text{font-size: 27px;text-align: center;font-family: 'Poppins', sans-serif;
+font-weight: 100;color: white;letter-spacing: 2px;
+
+}
+.one{font-weight: 100;font-size: 40px;
+color: rgb(252,170,34);letter-spacing: 1px;
+}
+
+.btn{
+	border: 2px solid red;width: 60px;height: 30px;border: none;outline: none; 
+transition: all 1s ease;border-left: 1px solid white;
+
+}
+button{border: none;outline: none;border: 2px solid white;text-transform: uppercase;color: rgb(252,170,34);transition: all 1s ease;
+padding: 10px 15px;background: transparent;width: 150px;font-size: 20px;font-weight: 500;letter-spacing: 2px;word-spacing: 2px;color: white;
+
+}
+
+.btn:hover{
+width: 90px;height: 80px;border: none;outline: none;border-left: 2px solid  rgb(252,170,34);;border-bottom: 2px solid rgb(252,170,34);
+	transition: all 1s ease;
+}
+button:hover{color: black;
+	border: 1px solid rgb(252,170,34);background: transparent;transition: all 1s ease;outline: none;color: white;
+
+}
+
+.right-section{
+	width: 100%;display: flex;margin-left: 80px;margin-top: 60px;
+}
+
+.profile-image{
+
+	z-index: 2;
+	background-image: url(../../one.svg);width: 350px; height:300px;background-size: contain;
+	border-bottom-right-radius:80%;
+	border-bottom-left-radius: 90%;
+
+background-repeat: no-repeat;
+
+position: absolute;
+}
+
+
+
+
+
+
+@media (max-width: 425px){
+
+
+.index{
+	width: 100%;
+}
+.home{
+	width:99%;
+margin: auto;
+	height: auto;display:flex;flex-direction: column-reverse;grid-gap: 160px;
+
+
+
+}
+
+.inhome{
+	width:100%;
+	display: grid;grid-template-rows: 40px 80px 80px;
+
+
+
+
+	
+}
+
+.first{letter-spacing: 2px;text-transform: uppercase;
+	font-weight: 100;font-size:30px;color: white;font-family: 'Poppins', sans-serif;letter-spacing: 3px;color: rgb(252,170,34);
+
+}
+.intro{
+	display: flex;flex-direction: column;
+}
+
+.intro h2{	font-size: 18px;letter-spacing: 2px;	color: white;
+
+text-transform: lowercase;
+}
+
+.intro h3{	color: rgb(252,170,34);
+	font-weight: 300;font-size: 24px;letter-spacing: 2px;word-spacing: 3px;line-height: 40px;
+}
+.intro .comma{
+	color: rgb(252,170,34);font-size: 40px;
+}
+.rest{
+	font-size: 20px;letter-spacing: 1px;	
+
+text-transform: lowercase;
+}
+
+
+.text-loop{
+
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+
+	display: flex;flex-direction: column;grid-gap: 30px;
+}
+.text{font-size: 20px;text-align:left;font-family: 'Poppins', sans-serif;
+font-weight: 100;color: white;letter-spacing: 2px;
+
+}
+.one{font-weight: 500;font-size: 28px;
+color: rgb(252,170,34);letter-spacing: 2px;
+}
+
+.btn{
+	border: 2px solid red;padding: 10px 15px;width: 50px;height: 25px;border: none;outline: none; 
+transition: all 1s ease;border-left: 1px solid white;
+
+}
+button{border: none;outline: none;border: 2px solid white;text-transform: uppercase;color: rgb(252,170,34);
+padding: 10px 15px;background: transparent;width: 120px;font-size: 16px;font-weight: 500;letter-spacing: 2px;word-spacing: 2px;color: white;
+
+}
+
+.btn:hover{
+	padding: 10px 15px;width: 90px;height: 80px;border: none;outline: none;border-left: 2px solid  rgb(252,170,34);;border-bottom: 2px solid rgb(252,170,34);
+	transition: all 1s ease;
+}
+button:hover{color: black;
+	border: 3px solid rgb(252,170,34);;padding: 10px 15px;background: transparent;transition: all 1s ease;outline: none;color: white;
+
+}
+
+
+.right-section{
+	width: 100%;
+
+margin-top: 60px;
+
+}
+
+.profile-image{
+
+	z-index: 2;
+	background-image: url(../../one.svg);width: 200px; height:200px;background-size: contain;
+	border-bottom-right-radius:80%;
+	border-bottom-left-radius: 90%;
+
+background-repeat: no-repeat;
+
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

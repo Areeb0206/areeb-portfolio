@@ -1,0 +1,19 @@
+.footer{
+	height: 35vh;
+	width: 100%;color: white;
+	text-align: center;
+}
+
+.footer-heading{
+	font-size: 40px;
+}
+
+.infooter{
+	display: flex;flex-direction: column;grid-gap: 30px;
+}
+.footer-intro{
+	display:block;text-align: center;margin-top: 40px;
+}
+.footer-intro p{
+	font-size: 20px;
+}
