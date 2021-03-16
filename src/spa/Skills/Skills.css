@@ -1,0 +1,107 @@
+.progress-bar{
+	background:transparent;
+	
+
+	         
+
+}
+.progress{
+	width: 300px;
+}
+
+.skills{
+	width: 100%;
+	margin: auto;height: 70vh;display: flex;justify-content: center;align-items: center;
+}
+.inskills{
+	width: 80%;
+	margin: auto;
+	display: grid;grid-template-columns: 30% 30% 40%;
+}
+
+
+.html{
+	display: flex;flex-direction: column-reverse;
+}
+
+.progress-bars-left{
+	display: flex;flex-direction: column;grid-gap: 30px;
+}
+.progress-bars-right{
+
+	display: flex;flex-direction: column;grid-gap: 30px;
+
+
+}
+.html-text{
+	text-align: center;color: white;font-family: 'Poppins',sans-serif;
+letter-spacing: 2px;
+}
+
+
+.in-svg{
+	background-image: url(../../Three.svg);
+	background-repeat: no-repeat;
+	width: 400px;height: 400px;background-size: contain;
+	margin-top: 40px;
+}
+
+
+
+
+@media (max-width: 425px){
+
+
+      
+
+
+.progress-bar{
+	background:transparent;
+	
+
+	         
+
+}
+
+.skills{
+	width: 100%;
+	margin: auto;height: auto;display: flex;justify-content: center;align-items: center;
+}
+.inskills{
+	width: 80%;
+	margin: auto;
+	display: flex;flex-direction: column-reverse;grid-gap: 20px;
+}
+
+
+.html{
+	display: flex;flex-direction: column-reverse;grid-gap:0px;position: relative;
+}
+
+.progress-bars-left{
+	display: flex;flex-direction: column;grid-gap: 20px;position: relative;top: -60px;
+}
+.progress-bars-right{
+
+	display: flex;flex-direction: column;grid-gap: 20px;position: relative;top: -60px;
+
+
+}
+.html-text{
+	text-align: right;position: absolute;right: 0;top: 30px;
+}
+
+
+.in-svg{
+	background-image: url(../../Three.svg);
+	background-repeat: no-repeat;
+	width: 250px;height: 300px;background-size: contain;
+	margin-top:20px ;
+}
+
+
+
+
+
+
+}
