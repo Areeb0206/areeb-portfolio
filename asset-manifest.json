@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/areebportfolio/static/css/main.3294b249.chunk.css",
-    "main.js": "/areebportfolio/static/js/main.2af7a5e7.chunk.js",
-    "main.js.map": "/areebportfolio/static/js/main.2af7a5e7.chunk.js.map",
-    "runtime-main.js": "/areebportfolio/static/js/runtime-main.e3c17125.js",
-    "runtime-main.js.map": "/areebportfolio/static/js/runtime-main.e3c17125.js.map",
+    "main.css": "/areebportfolio/static/css/main.e6080bce.chunk.css",
+    "main.js": "/areebportfolio/static/js/main.b0ee7d8e.chunk.js",
+    "main.js.map": "/areebportfolio/static/js/main.b0ee7d8e.chunk.js.map",
+    "runtime-main.js": "/areebportfolio/static/js/runtime-main.d61f4f37.js",
+    "runtime-main.js.map": "/areebportfolio/static/js/runtime-main.d61f4f37.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/areebportfolio/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.9e4ea420.chunk.js": "/areebportfolio/static/js/2.9e4ea420.chunk.js",
-    "static/js/2.9e4ea420.chunk.js.map": "/areebportfolio/static/js/2.9e4ea420.chunk.js.map",
-    "static/js/3.bdefe048.chunk.js": "/areebportfolio/static/js/3.bdefe048.chunk.js",
-    "static/js/3.bdefe048.chunk.js.map": "/areebportfolio/static/js/3.bdefe048.chunk.js.map",
+    "static/js/2.fd470c66.chunk.js": "/areebportfolio/static/js/2.fd470c66.chunk.js",
+    "static/js/2.fd470c66.chunk.js.map": "/areebportfolio/static/js/2.fd470c66.chunk.js.map",
+    "static/js/3.63d061de.chunk.js": "/areebportfolio/static/js/3.63d061de.chunk.js",
+    "static/js/3.63d061de.chunk.js.map": "/areebportfolio/static/js/3.63d061de.chunk.js.map",
     "index.html": "/areebportfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/areebportfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.3294b249.chunk.css.map": "/areebportfolio/static/css/main.3294b249.chunk.css.map",
-    "static/js/2.9e4ea420.chunk.js.LICENSE.txt": "/areebportfolio/static/js/2.9e4ea420.chunk.js.LICENSE.txt",
+    "static/css/main.e6080bce.chunk.css.map": "/areebportfolio/static/css/main.e6080bce.chunk.css.map",
+    "static/js/2.fd470c66.chunk.js.LICENSE.txt": "/areebportfolio/static/js/2.fd470c66.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/areebportfolio/static/media/One.1b2ac836.svg",
+    "static/media/Skills.css": "/areebportfolio/static/media/Three.2e0d7bce.svg",
     "static/media/About.css": "/areebportfolio/static/media/profile.c28b0065.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e3c17125.js",
+    "static/js/runtime-main.d61f4f37.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.9e4ea420.chunk.js",
-    "static/css/main.3294b249.chunk.css",
-    "static/js/main.2af7a5e7.chunk.js"
+    "static/js/2.fd470c66.chunk.js",
+    "static/css/main.e6080bce.chunk.css",
+    "static/js/main.b0ee7d8e.chunk.js"
   ]
 }
