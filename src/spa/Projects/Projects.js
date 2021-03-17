@@ -18,9 +18,22 @@ export default function Projects() {
 
                      <div className="project-heading">
 
-                        <h1><span className="dot">.</span>project<span className="bracket">( )</span></h1>
+                        <h1><span className="dot">.</span>projects<span className="bracket">( )</span></h1>
                         
                         <p>recent  projects</p>
+
+
+
+                     </div>
+
+
+                     <div className="project-content">
+                       <h5>
+                         i have worked on 10 + projects , in which five (5) of them are <span className="live">LIVE</span> . Some of them are listed below : 
+
+
+                       </h5>
+
 
 
 
@@ -71,7 +84,7 @@ export default function Projects() {
                           </div>
 
 
-                          
+
 
                           <div className="project3">
 

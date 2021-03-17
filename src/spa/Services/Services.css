@@ -25,12 +25,12 @@ text-align: center;position: relative;
 
 .service-heading p::after{
 content: '';
-position: absolute;width: 40px;height: 1px; background: white;right: 43%;top:46%;
+position: absolute;width: 40px;height: 1px; background: white;right: 42%;top:46%;
 
 }
 .service-heading p::before{
 content: '';
-position: absolute;width: 40px;height: 1px; background: white;left: 43%;top: 46%;
+position: absolute;width: 40px;height: 1px; background: white;left: 42%;top: 46%;
 
 }
 
@@ -87,7 +87,7 @@ background: linear-gradient(90deg, rgba(161,149,97,0.13481366667760852) 50%, rgb
 
 
 .fead-content,.spaad-content,.uiuxd-content{
-	font-size: 14px;line-height: 30px;word-spacing: 5px;letter-spacing: 1px;
+	font-size: 11px;line-height: 25px;word-spacing: 5px;letter-spacing: 1px;
 	color: white;
 }
 
@@ -172,7 +172,7 @@ width: 60px;height: 40px;background-size: contain;background-repeat: no-repeat;l
 
 
 .ampad-content,.hcd-content,.rds-content{
-	font-size: 14px;line-height: 30px;word-spacing: 5px;letter-spacing: 1px;
+	font-size: 11px;line-height: 25px;word-spacing: 5px;letter-spacing: 1px;
 	color: white;
 }
 

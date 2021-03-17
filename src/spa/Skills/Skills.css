@@ -122,18 +122,18 @@ letter-spacing: 1px;word-spacing: 5px;text-align: center;letter-spacing: 2px;
 
 }
 .svg p{
-	color: white;text-align: center;position: relative;font-size: 15px;color: #fcaa22;letter-spacing: 2px;
+	color: white;text-align: center;position: relative;font-size: 15px;color: #fcaa22;letter-spacing: 1px;
 }
 
 
 .svg p::after{
 content: '';
-position: absolute;width: 40px;height: 2px; background: white;right: 23%;top: 43%
+position: absolute;width: 40px;height: 1px; background: white;right: 20%;top: 43%
 
 }
 .svg p::before{
 content: '';
-position: absolute;width: 40px;height: 2px; background: white;left:23%;top: 43%;
+position: absolute;width: 40px;height: 1px; background: white;left:20%;top: 43%;
 }
 
 
