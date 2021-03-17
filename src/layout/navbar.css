@@ -20,7 +20,7 @@ body{
 }
 .innavbar{	width: 100%;
 
-	display:grid;grid-template-columns: 50% 40%;
+	display:grid;grid-template-columns: 45% 40%;
 }
 
 li{
@@ -45,10 +45,13 @@ a{
 }
 .headings{
 
-	display:flex;flex-direction: row;grid-gap: 40px;transform:scaleY(1);transition: all 1s ease;
+	display:grid;grid-template-columns: 120px 140px 130px 150px 140px 120px;
+
+
+	transform:scaleY(1);transition: all 1s ease;
 }
 .link{font-weight: 100;
-		color:rgb(252,170,34);font-size: 20px;
+		color:rgb(252,170,34);font-size: 17px;
 letter-spacing: 2px;transition: all 1s ease;
 
 }
@@ -67,6 +70,40 @@ position: absolute;width: 20px;height: 2px;background: white;transition: all 1s 
 
 }
 
+.headings .link .brackets{
+	color: white;transition: all 1s ease;
+}
+
+
+
+.dot{font-size: 20px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.headings .link:hover .brackets{
+color: #fcaa22;transition: all 1s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -79,17 +116,24 @@ position: absolute;width: 20px;height: 2px;background: white;transition: all 1s 
 	background: transparent;
 }
 .toggle{
-	background:white;width: 50px;height: 33px;
-	font-size: 15px;margin-top:20px
+	background:white;
+;
+margin: auto;
+margin-left: 120px;
+
+	width: 50px;height: 33px;
+	font-size: 15px;margin-top:40px;
+
 }
 
 .navbar{
 	padding: 0px;width: 90%;
-	text-align: center;
+	
 }
 .innavbar{	width: 100%;
 
-	display:grid;grid-template-columns: 50% 50%;grid-gap: 80px;
+
+	
 }
 
 li{
@@ -111,15 +155,22 @@ a{
 	font-family: 'Poppins',sans-serif;
 	font-size: 20px;letter-spacing: 1px;
 }
-.headings{text-align: center;position: relative;top: -30px;
+.headings{text-align: center;
 
-	display:flex;flex-direction: column;grid-gap: 20px;
+	display:flex;flex-direction: column;grid-gap: 10px;
 }
-.link{font-weight: 100;text-align: center;width: 100%;
+.link{font-weight: 100;text-align:left;width: 100%;
 
-		color:rgb(252,170,34);font-size: 20px;
+		color:rgb(252,170,34);font-size: 13px;margin-left: 30px;
 }
 
+
+.link:hover::after{
+
+	content: '';left: 3px;top: 10px;
+position: absolute;width: 25px;height: 1px;background: white;transition: all 1s ease;
+
+}
 
 
 

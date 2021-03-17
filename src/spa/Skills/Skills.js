@@ -182,7 +182,7 @@ export default function Skills() {
 		                
                               <div className="skill-heading">
 
-                                  <h3>My skills</h3>
+                                  <h3><span className="dot">.</span>my skills<span className="bracket">( )</span></h3>
                                   <p>what i know</p>
  
 

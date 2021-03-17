@@ -1,4 +1,6 @@
-import react from 'react';
+import React from 'react';
+
+import './App.css';
 
 import { Nav } from './layout';
 
@@ -13,7 +15,7 @@ import {
  
 
 
-function App() {
+export default function App() {
   return (<div className="body">
   
     
@@ -70,4 +72,4 @@ function App() {
   );
 }
 
-export default App;
+

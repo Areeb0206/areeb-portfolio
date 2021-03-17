@@ -1,0 +1,390 @@
+.services{
+	width: 100%;
+	height: auto;margin-top:50px;
+}
+.in-services{
+	width: 90%;
+	margin: 40px auto;
+	display: flex;flex-direction: column;grid-gap:60px;
+}
+
+.service-heading{
+	line-height: 30px;
+}
+
+.service-heading h1{
+	text-align: center;color: white;
+	font-size: 30px;letter-spacing: 2px;
+}
+.service-heading p{color: #fcaa22;
+letter-spacing: 1px;
+text-align: center;position: relative;
+
+}
+
+
+.service-heading p::after{
+content: '';
+position: absolute;width: 40px;height: 1px; background: white;right: 43%;top:46%;
+
+}
+.service-heading p::before{
+content: '';
+position: absolute;width: 40px;height: 1px; background: white;left: 43%;top: 46%;
+
+}
+
+
+
+.top-services{
+	width: 95%;
+margin: auto;
+	display:grid;grid-template-columns: 33% 33% 33%;grid-gap: 20px;
+
+}
+.fead,.spaad,.uiuxd{border-radius: 5px;
+	width: 100%;
+	height: 290px;
+	display: flex;flex-direction: column;grid-gap: 30px;
+	background: rgb(161,149,97);
+background: linear-gradient(90deg, rgba(161,149,97,0.13481366667760852) 50%, rgba(117,106,52,0.059183414576768234) 86%);padding: 20px;
+
+}
+
+
+
+
+.fead-image{
+	background-image: url(../../images/ux.svg);
+	background-size: contain;height :50px;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+.spaad-image{
+	background-image: url(../../images/document.svg);
+	background-size: contain;height :50px;
+	background-repeat: no-repeat;
+}
+
+
+
+.uiuxd-image{
+	background-image: url(../../images/log-in.svg);
+	background-size: contain;height :50px;
+	background-repeat: no-repeat;
+}
+
+
+
+
+.fead-heading,.spaad-heading,.uiuxd-heading{
+	color: white;font-size: 18px;letter-spacing: 1px;word-spacing: 4px;
+}
+
+
+.fead-content,.spaad-content,.uiuxd-content{
+	font-size: 14px;line-height: 30px;word-spacing: 5px;letter-spacing: 1px;
+	color: white;
+}
+
+
+.lol{
+	color: #fcaa22;font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-services{
+	width: 95%;
+margin: auto;
+	display:grid;grid-template-columns: 33% 33% 33%;grid-gap: 20px;
+}
+.ampad,.hcd,.rds{border-radius: 5px;
+	width: 100%;
+	height: 290px;background: rgb(161,149,97);
+background: linear-gradient(90deg, rgba(161,149,97,0.13481366667760852) 50%, rgba(117,106,52,0.059183414576768234) 86%);
+
+	display: flex;flex-direction: column;grid-gap: 30px;
+padding: 20px;
+}
+
+
+
+
+
+
+
+.ampad-image{
+	background-image: url(../../images/webpage.svg);
+	background-size: contain;height: 50px;
+	background-repeat: no-repeat;
+}
+.hcd-image{
+	background-image: url(../../images/html.svg);
+	background-size: contain;height :50px;
+	background-repeat: no-repeat;position: relative;
+}
+
+.hcd-image:after{
+content: '';
+position: absolute;
+background-image: url(../../images/css.png);
+width: 60px;height: 40px;background-size: contain;background-repeat: no-repeat;left: 60px;
+}
+.rds-image{
+	background-image: url(../../images/physics.svg);
+	background-size: contain;height :50px;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.ampad-heading,.hcd-heading,.rds-heading{
+	color: white;font-size: 18px;letter-spacing: 1px;word-spacing: 4px;
+}
+
+
+.ampad-content,.hcd-content,.rds-content{
+	font-size: 14px;line-height: 30px;word-spacing: 5px;letter-spacing: 1px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 425px){
+
+
+
+.services{
+	width: 100%;
+	height: auto;margin-top:30px;
+}
+.in-services{
+	width: 90%;
+	margin: auto;
+	display: flex;flex-direction: column;grid-gap: 30px;
+}
+
+.service-heading{
+	line-height: 30px;
+}
+
+.service-heading h1{
+	text-align: center;color: white;
+	font-size: 20px;letter-spacing: 1px;
+}
+.service-heading p{color: #fcaa22;
+letter-spacing: 0px;
+text-align: center;position: relative;font-size: 14px;
+
+}
+
+
+.service-heading p::after{
+content: '';
+position: absolute;width: 40px;height: 1px; background: white;right: 22%;top:50%;
+
+}
+.service-heading p::before{
+content: '';
+position: absolute;width: 40px;height: 1px; background: white;left: 22%;top: 50%
+
+}
+
+
+
+.top-services{
+	width: 90%;display: flex;margin: auto;
+flex-direction: column;
+	grid-gap: 40px;
+
+}
+
+
+
+
+
+.fead,.spaad,.uiuxd{border-radius: 5px;
+	width: 100%;
+	height: 290px;
+	display: flex;flex-direction: column;grid-gap: 30px;
+	background: rgb(161,149,97);
+background: linear-gradient(90deg, rgba(161,149,97,0.13481366667760852) 50%, rgba(117,106,52,0.059183414576768234) 86%);padding: 20px;
+border-left: 1px solid #fcaa22
+}
+
+
+
+
+.fead-image{
+	background-image: url(../../images/ux.svg);
+	background-size: contain;height :40px;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+.spaad-image{
+	background-image: url(../../images/document.svg);
+	background-size: contain;height :40px;
+	background-repeat: no-repeat;
+}
+
+
+
+.uiuxd-image{
+	background-image: url(../../images/log-in.svg);
+	background-size: contain;height :40px;
+	background-repeat: no-repeat;
+}
+
+
+
+
+.fead-heading,.spaad-heading,.uiuxd-heading{
+	color: white;font-size: 13px;letter-spacing: 1px;word-spacing: 4px;
+}
+
+
+.fead-content,.spaad-content,.uiuxd-content{
+	font-size: 10px;line-height: 23px;word-spacing: 5px;letter-spacing: 1px;
+	color: white;
+}
+
+
+.lol{
+	color: #fcaa22;font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-services{
+	width: 90%;
+margin: auto;
+	display:flex;flex-direction: column;grid-gap: 40px;
+}
+.ampad,.hcd,.rds{border-radius: 5px;
+	width: 100%;border-left: 1px solid #fcaa22;
+	height: 250px;background: rgb(161,149,97);
+background: linear-gradient(90deg, rgba(161,149,97,0.13481366667760852) 50%, rgba(117,106,52,0.059183414576768234) 86%);
+
+	display: flex;flex-direction: column;grid-gap: 20px;
+padding: 20px;
+}
+
+
+
+
+
+
+
+.ampad-image{
+	background-image: url(../../images/webpage.svg);
+	background-size: contain;height: 40px;
+	background-repeat: no-repeat;
+}
+.hcd-image{
+	background-image: url(../../images/html.svg);
+	background-size: contain;height :40px;
+	background-repeat: no-repeat;
+}
+.rds-image{
+	background-image: url(../../images/physics.svg);
+	background-size: contain;height :45px;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.ampad-heading,.hcd-heading,.rds-heading{font-weight: 500;
+	color: white;font-size: 14px;letter-spacing: 1px;word-spacing: 4px;
+}
+
+
+.ampad-content,.hcd-content,.rds-content{
+	font-size: 10px;line-height: 20px;word-spacing: 5px;letter-spacing: 1px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

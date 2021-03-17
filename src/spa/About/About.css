@@ -12,7 +12,7 @@ margin: auto;
 	display: grid;grid-template-rows: 20vh 50vh;margin-top: 40px;
 }
 .in-about h1{
-	color: white;font-size: 30px;text-align: center;position: relative;font-family: 'Poppins', sans-serif;
+	color: white;font-size: 30px;text-align: center;position: relative;font-family: 'Poppins', sans-serif;letter-spacing: 2px;
 
 }
 .in-about p{
@@ -109,6 +109,15 @@ transition:all 1s ease;
 width: 80px;height:75px;
 border-left: 1px solid rgb(252,170,34);border-bottom: 1px solid rgb(252,170,34);
 
+}
+.bracket{
+color: #fcaa22
+}
+
+
+
+.dot{width: 20px ;
+	color: white;
 }
 
 

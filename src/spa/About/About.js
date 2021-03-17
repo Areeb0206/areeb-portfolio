@@ -21,7 +21,7 @@ export default function About() {
 
                          <div className="about-heading">
 
-                             <h1>About me</h1>
+                             <h1><span className="dot">.</span>about<span className="bracket">( )</span></h1>
                         
                             <p> who i am</p>
 

@@ -1,0 +1,31 @@
+
+
+
+
+::-webkit-scrollbar {
+    width: 0px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  
+
+  background-image: linear-gradient(180deg, grey ,white);
+  
+  /* Set the background size and repeat properties. */
+  
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+
+
+  }
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+
+
+
