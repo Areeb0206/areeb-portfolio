@@ -20,7 +20,7 @@ body{
 }
 .innavbar{	width: 100%;
 
-	display:grid;grid-template-columns: 45% 40%;
+	display:grid;grid-template-columns: 40% 50%;
 }
 
 li{
@@ -41,18 +41,18 @@ a{
 .porto{
 	color:white;
 	font-family: 'Poppins',sans-serif;
-	font-size: 40px;letter-spacing: 4px;
+	font-size: 35px;letter-spacing: 4px;
 }
 .headings{
 
-	display:grid;grid-template-columns: 120px 140px 130px 150px 140px 120px;
+	display:inline-flex;grid-gap: 30px;
 
 
 	transform:scaleY(1);transition: all 1s ease;
 }
-.link{font-weight: 100;
-		color:rgb(252,170,34);font-size: 17px;
-letter-spacing: 2px;transition: all 1s ease;
+.link{font-weight: 400;
+		color:rgb(252,170,34);font-size: 15px;
+letter-spacing: 3px;transition: all 1s ease;transform: scaleY(1.2);
 
 }
 .link:hover{position: relative;
@@ -74,7 +74,11 @@ position: absolute;width: 20px;height: 2px;background: white;transition: all 1s 
 	color: white;transition: all 1s ease;
 }
 
+.brackets{
 
+font-size: 13px;
+
+}
 
 .dot{font-size: 20px;
 	color: white;
@@ -161,7 +165,7 @@ a{
 }
 .link{font-weight: 100;text-align:left;width: 100%;
 
-		color:rgb(252,170,34);font-size: 13px;margin-left: 30px;
+		color:rgb(252,170,34);font-size: 15px;margin-left: 30px;
 }
 
 

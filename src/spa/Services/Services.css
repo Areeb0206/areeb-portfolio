@@ -43,7 +43,7 @@ margin: auto;
 
 }
 .fead,.spaad,.uiuxd{border-radius: 5px;
-	width: 100%;
+	width: 100%;border-left: 1px solid #fcaa22;
 	height: 290px;
 	display: flex;flex-direction: column;grid-gap: 30px;
 	background: rgb(161,149,97);
@@ -124,7 +124,7 @@ margin: auto;
 	display:grid;grid-template-columns: 33% 33% 33%;grid-gap: 20px;
 }
 .ampad,.hcd,.rds{border-radius: 5px;
-	width: 100%;
+	width: 100%;border-left: 1px solid #fcaa22;
 	height: 290px;background: rgb(161,149,97);
 background: linear-gradient(90deg, rgba(161,149,97,0.13481366667760852) 50%, rgba(117,106,52,0.059183414576768234) 86%);
 
