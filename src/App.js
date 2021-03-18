@@ -16,12 +16,31 @@ import {
 
 
 export default function App() {
-  return (<div className="body">
+  return (
+
+    <div className="body">
   
     
    
+        <div className="triangle"></div>
 
+      
+<div class="view">
+  <div class="plane main">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+</div>
 
+<div class="box hingebox">
+  <p class="text animated hinge"></p>
+  
+</div>
+          
 
  
     <Router>
@@ -67,6 +86,12 @@ export default function App() {
           </Route>
      </Switch>
      </Router>
+
+
+
+
+
+
 
       </div>
   );

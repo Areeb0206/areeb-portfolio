@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import { Layout } from '../../layout';
 import './About.css';
@@ -79,7 +79,7 @@ export default function About() {
 
 
                                         <div className="right-bottom">
-                                           <button>Download CV</button>
+                                           <a href="https://drive.google.com/file/d/1iE4yfZV7UfUYRh5nDvHx7K9kWhICt4xq/view"><button>Download CV</button></a>
 
 
                                         </div>

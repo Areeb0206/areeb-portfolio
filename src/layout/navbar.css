@@ -20,7 +20,7 @@ body{
 }
 .innavbar{	width: 100%;
 
-	display:grid;grid-template-columns: 40% 50%;
+	display:grid;grid-template-columns: 47% 50%;
 }
 
 li{

@@ -70,7 +70,7 @@ render()
 
                   <div className="right-section">
 
-					      <div className="profile-image"></div>
+					      <div className="profile-image vert-move"></div>
 
 					   
 
