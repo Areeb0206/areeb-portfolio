@@ -6,7 +6,7 @@
 	height: auto;margin-top:50px;
 }
 .in-project{
-	width: 90%;
+	width: 90%;height: auto;
 	margin: 40px auto;
 	display: flex;flex-direction: column;grid-gap:0px;
 }
@@ -43,8 +43,8 @@ position: absolute;width: 40px;height: 1px; background: white;left: 40%;top: 46%
 	width: 60%;text-align: center;
 	margin: 40px auto;
 }
-.project-content h5{font-size: 16px;
-	line-height: 40px;color: white;letter-spacing: 2px ;word-spacing: 2px;
+.project-content h5{font-size: 15px;
+	line-height: 37px;color: white;letter-spacing: 1px ;word-spacing: 2px;
 }
 
 
@@ -67,11 +67,14 @@ display:flex;flex-direction: column;grid-gap: 40px;
 
 
 
-.project1{background: rgb(161,149,97);border-radius: 10px;
+.project1{
+
+	background: rgb(161,149,97);border-left: 1px solid #fcaa22;
+	border-radius: 10px;
 background: linear-gradient(90deg, rgba(161,149,97,0.13481366667760852) 50%, rgba(117,106,52,0.059183414576768234) 86%);padding: 20px;
 
 	width: 100%;height: auto;
-	display: grid;grid-template-columns: 50% 50%;position: relative;grid-gap: 30px;
+	display:flex;flex-direction:row;grid-gap: 40px;
 
 }
 .project1-left{
@@ -86,26 +89,27 @@ display: flex;flex-direction: column;grid-gap: 30px
 .project1-right {
 	width:100%;
 height: auto;position: relative;
+display: flex;margin-top: 140px
 
 }
 
 .project1-left h3{
 
-font-size: 30px;
+font-size: 25px;
 color: white;letter-spacing: 1px;
 
 }
 
 .project1-left h4{
 
-font-size: 25px;
+font-size: 21px;
 color:#fcaa22;letter-spacing: 1px;
 
 }
 
 .project1-left p{
 
-font-size: 14px;line-height: 29px;word-spacing: 5px;letter-spacing: 2px;
+font-size: 12px;line-height: 29px;word-spacing: 5px;letter-spacing: 2px;
 color: white;letter-spacing: 1px;
 
 }
@@ -116,15 +120,13 @@ color: white;letter-spacing: 1px;
 .link1-image{width: 100%;
 
 	background-image: url(../../images/link.svg);height: 30px;background-repeat: no-repeat;
-	position: absolute;left: 10%;
 
-top:55%;
 }
 
 .link1{width: 100%;
-	position: absolute;left: 20%;
+
 letter-spacing: 2px;color: #fcaa22;
-top:60%
+
 }
 a{
 	text-decoration: none !important;color: #fcaa22;transition: 1s ease;
@@ -132,7 +134,6 @@ a{
 a:hover{
 	color: white;transition: 1s ease;
 }
-
 
 
 
@@ -157,10 +158,15 @@ a:hover{
 
 .project2{position: relative;border-radius: 10px;
 	width: 100%;
-	display: grid;grid-template-columns: 50% 50%;grid-gap: 30px;
+	display: flex;flex-direction: row;
+
+
+
 
 background: rgb(161,149,97);
-background: linear-gradient(90deg, rgba(161,149,97,0.13481366667760852) 50%, rgba(117,106,52,0.059183414576768234) 86%);padding: 20px;
+background: linear-gradient(90deg, rgba(117,106,52,0.059183414576768234) 5%, rgba(161,149,97,0.13481366667760852) 86%);padding: 20px;
+
+padding: 20px;
 
 
 
@@ -170,14 +176,14 @@ background: linear-gradient(90deg, rgba(161,149,97,0.13481366667760852) 50%, rgb
 
 width: 100%;
 
-height: auto;position: relative;
+height: auto;position: relative;display: flex;flex-direction: row-reverse;grid-gap: 10px;margin-top: 120px;
 
 }
 
 
 .project2-right{
 	width: 100%;
-
+text-align: right;
 height: auto;
 padding: 20px;
 
@@ -188,21 +194,21 @@ display: flex;flex-direction: column;grid-gap: 30px
 
 .project2-right h3{
 
-font-size: 30px;
+font-size: 25px;
 color: white;letter-spacing: 1px;
 
 }
 
 .project2-right h4{
 
-font-size: 25px;
-color:#fcaa22;letter-spacing: 1px;
+font-size: 22px;
+color:#fcaa22;letter-spacing:2px;
 
 }
 
 .project2-right p{
 
-font-size: 14px;line-height: 29px;word-spacing: 5px;letter-spacing: 2px;
+font-size: 12px;line-height: 29px;word-spacing: 5px;letter-spacing: 2px;
 color: white;letter-spacing: 1px;
 
 }
@@ -211,15 +217,14 @@ color: white;letter-spacing: 1px;
 .link2-image{width: 100%;
 
 	background-image: url(../../images/link.svg);height: 30px;background-repeat: no-repeat;
-	position: absolute;left: 0;
+	
 
-top:45%;
 }
 
 .link2{width: 100%;
-	position: absolute;left: 10%;
+
 letter-spacing: 2px;color: #fcaa22;font-size: 14px;
-top:45%
+
 }
 a{
 	text-decoration: none !important;color: #fcaa22;transition: 1s ease;
@@ -255,31 +260,17 @@ a:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.project3{background: rgb(161,149,97);
-background: linear-gradient(90deg, rgba(161,149,97,0.13481366667760852) 50%, rgba(117,106,52,0.059183414576768234) 86%);padding: 20px;
-
-	width: 100%;
-	display: grid;grid-template-columns: 50% 50%;
+.project3{
+	width: 100%;border-left: 1px solid #fcaa22;background: rgb(161,149,97);
+background: linear-gradient(90deg, rgba(161,149,97,0.13481366667760852) 50%, rgba(117,106,52,0.059183414576768234) 86%);
+display: flex;flex-direction: row;grid-gap: 20px;
 border-radius: 10px;
 }
 .project3-left{
 
 width: 100%;
 
-height: auto;padding: 20px;
+height: auto;padding: 30px;
 
 height: auto;
 display: flex;flex-direction: column;grid-gap: 30px
@@ -291,7 +282,8 @@ display: flex;flex-direction: column;grid-gap: 30px
 
 .project3-right{
 	width: 100%;
-
+	display: flex;flex-direction: row;padding: 10px;
+margin-top: 110px;
 height: auto;position: relative;
 
 }
@@ -301,14 +293,14 @@ height: auto;position: relative;
 
 .project3-left h3{
 
-font-size: 30px;
+font-size: 26px;
 color: white;letter-spacing: 1px;
 
 }
 
 .project3-left h4{
 
-font-size: 25px;
+font-size: 20px;
 color:#fcaa22;letter-spacing: 1px;
 
 }
@@ -316,7 +308,7 @@ color:#fcaa22;letter-spacing: 1px;
 
 .project3-left p{
 
-font-size: 14px;line-height: 29px;word-spacing: 5px;letter-spacing: 2px;
+font-size: 12px;line-height: 25px;word-spacing: 5px;letter-spacing: 2px;
 color: white;letter-spacing: 1px;
 
 }
@@ -331,15 +323,13 @@ color: white;letter-spacing: 1px;
 .link3-image{width: 100%;
 
 	background-image: url(../../images/link.svg);height: 30px;background-repeat: no-repeat;
-	position: absolute;left: 10%;
 
-top:49%;
 }
 
 .link3{width: 100%;
-	position: absolute;left: 20%;
-letter-spacing: 2px;color: #fcaa22;
-top:50%
+
+letter-spacing: 2px;color: #fcaa22;font-size: 15px;
+
 }
 a{
 	text-decoration: none !important;color: #fcaa22;transition: 1s ease;
@@ -347,9 +337,6 @@ a{
 a:hover{
 	color: white;transition: 1s ease;
 }
-
-
-
 
 
 
@@ -394,11 +381,11 @@ a:hover{
 
 
 .project-content{
-	width: 80%;text-align:left;
+	width: 80%;text-align:center;
 	margin: 20px auto;
 }
 .project-content h5{font-size: 10px;
-	line-height: 25px;color: white;letter-spacing: 1px ;word-spacing: 2px;
+	line-height: 23px;color: white;letter-spacing: 1px ;word-spacing: 2px;
 }
 
 
@@ -451,7 +438,7 @@ position: absolute;width: 35px;height: 1px; background: white;left: 14%;top: 46%
 	width: 90%;margin:30px auto;
 	
 height: auto;
-display: flex;flex-direction: column;grid-gap: 70px;
+display: flex;flex-direction: column;grid-gap: 50px;
 
 
 }
@@ -476,44 +463,56 @@ display: flex;flex-direction: column;grid-gap: 70px;
 
 
 
-.project1{
-	width: 100%;height:auto;
-	display: flex;flex-direction: column;grid-gap: 0px;position: relative;margin-bottom: 20px;
+
+
+
+
+.project1{border-left: 1px solid #fcaa22;
+
+	background: rgb(161,149,97);
+	border-radius: 10px;
+background: linear-gradient(90deg, rgba(161,149,97,0.13481366667760852) 50%, rgba(117,106,52,0.059183414576768234) 86%);padding: 20px;
+
+	width: 100%;height: auto;
+	display:flex;flex-direction:column;grid-gap: 20px;
 
 }
 .project1-left{
 
-width: 100%;padding: 10px;
-position: relative;
+width: 100%;padding: 0px;
+
 height: auto;
 display: flex;flex-direction: column;grid-gap: 20px
 }
 
 
 .project1-right {
-	width:100%;margin: 0;
-position: relative;
+	width:100%;
+height: auto;position: relative;
+display:flex;flex-direction: column;
+grid-gap: 10px;
 
+margin-top: 0px
 
 }
 
 .project1-left h3{
 
-font-size: 23px;
+font-size: 20px;
 color: white;letter-spacing: 1px;
 
 }
 
 .project1-left h4{
 
-font-size: 16px;
+font-size: 15px;
 color:#fcaa22;letter-spacing: 1px;
 
 }
 
 .project1-left p{
-
-font-size: 10px;line-height: 20px;word-spacing: 5px;letter-spacing: 2px;
+transform: scaleY(1.2);
+font-size: 9px;line-height: 20px;word-spacing: 3px;letter-spacing: 1px;
 color: white;letter-spacing: 1px;
 
 }
@@ -521,15 +520,16 @@ color: white;letter-spacing: 1px;
 
 
 
-.link1-image{width: 100%;position:absolute;left: 0;
+.link1-image{width: 100%;
 
-	background-image: url(../../images/link.svg);height: 30px;background-repeat: no-repeat;top: 0px;left: 10px
+	background-image: url(../../images/link.svg);height: 20px;background-repeat: no-repeat;background-size: contain;
 
 }
 
-.link1{width: 10%;margin: auto;
-	position:absolute;left: 10px;top: 0;
-letter-spacing: 0px;color: #fcaa22;top: 50px;font-size: 13px;
+.link1{width: 100%;font-size: 10px;
+
+letter-spacing: 2px;color: #fcaa22;
+
 }
 a{
 	text-decoration: none !important;color: #fcaa22;transition: 1s ease;
@@ -560,48 +560,75 @@ a:hover{
 
 
 
-.project2{position: relative;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.project2{position: relative;border-radius: 10px;border-left: 1px solid #fcaa22;
 	width: 100%;
-display: inline-block;
-height:auto;margin-bottom: 20px;
+	display: flex;flex-direction: column-reverse;grid-gap: 25px;
+
+background: rgb(161,149,97);
+background: linear-gradient(90deg, rgba(161,149,97,0.13481366667760852) 50%, rgba(117,106,52,0.059183414576768234) 86%);padding: 20px;
+
+
+
+
 }
 .project2-left{
 
 width: 100%;
 
-height: auto;position: relative;
+height: auto;position: relative;display: flex;flex-direction:column;grid-gap: 10px;margin-top: 0px;
 
 }
 
 
 .project2-right{
 	width: 100%;
+text-align: left;
+height: auto;
+padding: 00px;
 
 height: auto;
-padding: 0px;position: relative;
-top: 0px;
-height: auto;
-display: flex;flex-direction: column;grid-gap: 10px
+display: flex;flex-direction: column;grid-gap: 20px
 
 }
 
 .project2-right h3{
 
-font-size: 23px;
+font-size: 20px;
 color: white;letter-spacing: 1px;
 
 }
 
-.project2-right h4{margin-top: 10px;
+.project2-right h4{
 
-font-size: 17px;
-color:#fcaa22;letter-spacing: 2px;
+font-size: 16px;
+color:#fcaa22;letter-spacing: 1px;
 
 }
 
 .project2-right p{
-margin-top: 10px;
-font-size: 10px;line-height: 25px;word-spacing: 3px;letter-spacing: 1px;
+transform: scaleY(1.2);
+font-size: 9px;line-height: 20px;word-spacing: 5px;letter-spacing: 2px;
 color: white;letter-spacing: 1px;
 
 }
@@ -609,42 +636,24 @@ color: white;letter-spacing: 1px;
 
 .link2-image{width: 100%;
 
-	background-image: url(../../images/link.svg);height: 30px;background-repeat: no-repeat;
-	position: absolute;left: 0;
+	background-image: url(../../images/link.svg);height: 20px;
+width: 30px;
+	background-repeat: no-repeat;
+	background-size: contain;
 
-top:50vh;
 }
 
 .link2{width: 100%;
-	position: absolute;left: 0;
-letter-spacing: 2px;color: #fcaa22;font-size: 11px;
-top:60vh;
+
+letter-spacing: 2px;color: #fcaa22;font-size: 10px;
+
 }
-
-
-
 a{
 	text-decoration: none !important;color: #fcaa22;transition: 1s ease;
 }
 a:hover{
 	color: white;transition: 1s ease;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -671,15 +680,17 @@ a:hover{
 
 
 .project3{
-	width: 100%;height:auto;margin-bottom: 20px;
-	display:flex;flex-direction: column;
-
+	width: 100%;border-left: 1px solid #fcaa22;background: rgb(161,149,97);
+background: linear-gradient(90deg, rgba(161,149,97,0.13481366667760852) 50%, rgba(117,106,52,0.059183414576768234) 86%);
+display: flex;flex-direction: column;grid-gap: 20px;
+padding: 20px;
+border-radius: 10px;
 }
 .project3-left{
 
 width: 100%;
 
-height: auto;padding: 0;
+height: auto;padding: 00px;
 
 height: auto;
 display: flex;flex-direction: column;grid-gap: 20px
@@ -691,7 +702,8 @@ display: flex;flex-direction: column;grid-gap: 20px
 
 .project3-right{
 	width: 100%;
-
+	display: flex;flex-direction:column;padding: 0;grid-gap: 10px;
+margin-top: 0px;
 height: auto;position: relative;
 
 }
@@ -701,7 +713,7 @@ height: auto;position: relative;
 
 .project3-left h3{
 
-font-size: 23px;
+font-size: 20px;
 color: white;letter-spacing: 1px;
 
 }
@@ -716,7 +728,7 @@ color:#fcaa22;letter-spacing: 1px;
 
 .project3-left p{
 
-font-size: 10px;line-height: 25px;word-spacing: 3px;letter-spacing: 1px;
+font-size: 9px;line-height: 20px;word-spacing: 5px;letter-spacing: 2px;
 color: white;letter-spacing: 1px;
 
 }
@@ -730,16 +742,14 @@ color: white;letter-spacing: 1px;
 
 .link3-image{width: 100%;
 
-	background-image: url(../../images/link.svg);height: 30px;background-repeat: no-repeat;
-	position: absolute;left: 0%;
+	background-image: url(../../images/link.svg);height: 20px;background-repeat: no-repeat;
 
-top:0%;
 }
 
 .link3{width: 100%;
-	position: absolute;left: 0%;
+
 letter-spacing: 2px;color: #fcaa22;font-size: 10px;
-top:50px
+
 }
 a{
 	text-decoration: none !important;color: #fcaa22;transition: 1s ease;
@@ -756,48 +766,6 @@ a:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+

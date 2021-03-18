@@ -29,7 +29,7 @@ export default function Projects() {
 
                      <div className="project-content">
                        <h5>
-                         i have worked on 10 + projects , in which five (5) of them are <span className="live">LIVE</span> . Some of them are listed below : 
+                         I've worked on 10+ projects , in which five (5) of them are <span className="live">LIVE</span> . Some of them are listed below : 
 
 
                        </h5>
@@ -98,9 +98,9 @@ export default function Projects() {
                               </div>
 
                               <div className="project3-right">
-                              <div className="link3-image"></div>
-                              <div className="link3">
-                              <a href="https://coronacovid.herokuapp.com/">https://coronacovid.herokuapp.com/</a></div>
+                                  <div className="link3-image"></div>
+                                  <div className="link3">
+                                  <a href="https://coronacovid.herokuapp.com/">https://coronacovid.herokuapp.com/</a></div>
 
 
                               </div>
