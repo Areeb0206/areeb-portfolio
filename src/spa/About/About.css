@@ -40,6 +40,29 @@ position: absolute;width: 40px;height: 2px; background: white;left: 42%;top: 43%
 .about-mid{
 	display: grid;grid-template-columns: 39% 60%;
 }
+.icons{width: 300px;
+
+
+	display:flex;flex-direction: row;grid-gap: 20px;
+}
+
+.icons .fb{
+background-image: url(../../images/facebook.svg);height: 20px;width:20px;background-size: contain;background-repeat: no-repeat;
+}
+.icons .insta{
+	background-image: url(../../images/instagram.svg);height: 20px;background-size: contain;background-repeat: no-repeat;
+}
+
+
+.linkedin{
+
+background-image: url(../../images/instagram.svg);height: 20px;background-size: contain;background-repeat: no-repeat;
+}
+
+
+
+
+
 .left-aboutus h4{
 
 }

@@ -34,9 +34,13 @@ export default function About() {
                          <div className="about-mid">
 
                                 <div className="img">
-                                <div className="left-mid">
+                                   <div className="left-mid">
 
-                                </div></div>
+                                   </div>
+
+                                  
+
+                                </div>
 
 
                                 <div className="right-mid">
@@ -64,8 +68,8 @@ export default function About() {
                                       
 
                                           <h2>
-                                               Innovative Front-end Developer , building and maintaining responsive interfaces
-                                               i am Fresher but having an experience in this are of work, with multiple quality projects
+                                               Innovative Front-end Developer , building and maintaining responsive interfaces.
+                                               I'm Fresher and i am very passionate and dedicated to my work. I've acquire the skills and knowledge necessay to make your projects a success.
 												
 
                                           </h2>
