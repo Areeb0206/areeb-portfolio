@@ -477,8 +477,8 @@ display: flex;flex-direction: column;grid-gap: 70px;
 
 
 .project1{
-	width: 100%;height:80vh;
-	display: flex;flex-direction: column;grid-gap: 0px;position: relative;
+	width: 100%;height:auto;
+	display: flex;flex-direction: column;grid-gap: 0px;position: relative;margin-bottom: 20px;
 
 }
 .project1-left{
@@ -563,7 +563,7 @@ a:hover{
 .project2{position: relative;
 	width: 100%;
 display: inline-block;
-height:80vh;
+height:auto;margin-bottom: 20px;
 }
 .project2-left{
 
@@ -671,8 +671,8 @@ a:hover{
 
 
 .project3{
-	width: 100%;height: 80vh;
-	display:flex;flex-direction: column;margin-bottom:20px ;
+	width: 100%;height:auto;margin-bottom: 20px;
+	display:flex;flex-direction: column;
 
 }
 .project3-left{
