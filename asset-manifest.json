@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/areebportfolio/static/css/main.0ecbabe7.chunk.css",
-    "main.js": "/areebportfolio/static/js/main.5931e7e8.chunk.js",
-    "main.js.map": "/areebportfolio/static/js/main.5931e7e8.chunk.js.map",
-    "runtime-main.js": "/areebportfolio/static/js/runtime-main.15ae55b4.js",
-    "runtime-main.js.map": "/areebportfolio/static/js/runtime-main.15ae55b4.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/areebportfolio/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.d12ba0e7.chunk.js": "/areebportfolio/static/js/2.d12ba0e7.chunk.js",
-    "static/js/2.d12ba0e7.chunk.js.map": "/areebportfolio/static/js/2.d12ba0e7.chunk.js.map",
-    "static/js/3.6a4f10ee.chunk.js": "/areebportfolio/static/js/3.6a4f10ee.chunk.js",
-    "static/js/3.6a4f10ee.chunk.js.map": "/areebportfolio/static/js/3.6a4f10ee.chunk.js.map",
+    "main.css": "/areebportfolio/static/css/main.f29a5f41.chunk.css",
+    "main.js": "/areebportfolio/static/js/main.df3542c7.chunk.js",
+    "main.js.map": "/areebportfolio/static/js/main.df3542c7.chunk.js.map",
+    "runtime-main.js": "/areebportfolio/static/js/runtime-main.9fe23954.js",
+    "runtime-main.js.map": "/areebportfolio/static/js/runtime-main.9fe23954.js.map",
+    "static/css/2.e4e35064.chunk.css": "/areebportfolio/static/css/2.e4e35064.chunk.css",
+    "static/js/2.e54b616f.chunk.js": "/areebportfolio/static/js/2.e54b616f.chunk.js",
+    "static/js/2.e54b616f.chunk.js.map": "/areebportfolio/static/js/2.e54b616f.chunk.js.map",
+    "static/js/3.96096e44.chunk.js": "/areebportfolio/static/js/3.96096e44.chunk.js",
+    "static/js/3.96096e44.chunk.js.map": "/areebportfolio/static/js/3.96096e44.chunk.js.map",
     "index.html": "/areebportfolio/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/areebportfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.0ecbabe7.chunk.css.map": "/areebportfolio/static/css/main.0ecbabe7.chunk.css.map",
-    "static/js/2.d12ba0e7.chunk.js.LICENSE.txt": "/areebportfolio/static/js/2.d12ba0e7.chunk.js.LICENSE.txt",
+    "static/css/2.e4e35064.chunk.css.map": "/areebportfolio/static/css/2.e4e35064.chunk.css.map",
+    "static/css/main.f29a5f41.chunk.css.map": "/areebportfolio/static/css/main.f29a5f41.chunk.css.map",
+    "static/js/2.e54b616f.chunk.js.LICENSE.txt": "/areebportfolio/static/js/2.e54b616f.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/areebportfolio/static/media/One.1b2ac836.svg",
     "static/media/Skills.css": "/areebportfolio/static/media/uiux.f105a94c.png",
     "static/media/Services.css": "/areebportfolio/static/media/webpage.3a14861e.svg",
@@ -21,10 +21,10 @@
     "static/media/Project.css": "/areebportfolio/static/media/link.0a2597c0.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.15ae55b4.js",
-    "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.d12ba0e7.chunk.js",
-    "static/css/main.0ecbabe7.chunk.css",
-    "static/js/main.5931e7e8.chunk.js"
+    "static/js/runtime-main.9fe23954.js",
+    "static/css/2.e4e35064.chunk.css",
+    "static/js/2.e54b616f.chunk.js",
+    "static/css/main.f29a5f41.chunk.css",
+    "static/js/main.df3542c7.chunk.js"
   ]
 }
