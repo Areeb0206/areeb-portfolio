@@ -6,7 +6,6 @@ import TextLoop from "react-text-loop";
 
 
 
-
 export default function About() {
 	return(
 
@@ -33,15 +32,32 @@ export default function About() {
 
                          <div className="about-mid">
 
-                                <div className="img">
+
+
+
+
+                                <div className="img vert-move">
                                    <div className="left-mid">
 
                                    </div>
 
-                                  
+
+                                   <div className="sm-icons">
+
+                                      <div className="fb"></div>
+
+                                      <div className="insta"></div>
+
+                                      <div className="linkedin"></div>
+
+
+
+                                   </div>
+                 
 
                                 </div>
 
+                 
 
                                 <div className="right-mid">
 

@@ -20,8 +20,12 @@ export default function Contact() {
 
                     </div>
 
-                    <div className="three-box">
 
+
+
+
+                    <div className="three-box">
+                         
                          <div className="tb-left">
                             <h2>Email</h2>
                             <p>masafvi58@gmail.com</p>

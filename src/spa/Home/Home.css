@@ -9,6 +9,14 @@
 
 
 
+
+
+
+
+
+
+
+
 .index{
 	width: 100%;
 }
@@ -112,20 +120,60 @@ position: absolute;
 
 
 .vert-move {
-    -webkit-animation: mover 1s infinite  alternate;
+    -webkit-animation: mover 2s infinite  alternate;
     animation: mover 2s infinite  alternate;
 }
 .vert-move {
-    -webkit-animation: mover 1s infinite  alternate;
+    -webkit-animation: mover 2s infinite  alternate;
     animation: mover 2s infinite  alternate;
 }
 @-webkit-keyframes mover {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-40px); }
+    100% { transform: translateY(-70px); }
 }
 @keyframes mover {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
+    100% { transform: translateY(-30px); }
+}
+
+
+
+
+
+.animation{
+	position: absolute;left: 80em;top: 35em;display: flex;flex-direction: row;grid-gap: 0px;
+}
+
+
+.line-one{display: flex;flex-direction: column;grid-gap: 5px;
+}
+
+
+.line-one span{position:relative;top: 0em;left: 0px;transform:scale(0.3);border-radius: 50%;
+
+
+	width: 10px;height: 10px;
+	background: #fcaa22
+}
+
+
+
+
+
+
+
+.animation.lines {
+    -webkit-animation: lines 2s infinite  alternate;
+    animation: lines 2s infinite  alternate;
+}
+
+@-webkit-keyframes lines {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50px); }
+}
+@keyframes lines {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100px); }
 }
 
 
@@ -279,6 +327,73 @@ background-repeat: no-repeat;
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.animation{
+	position: absolute;top:660px;display: flex;flex-direction: row;grid-gap: 0px;
+
+left: 250px;
+
+}
+
+
+.line-one{display: flex;flex-direction: column;grid-gap: 5px;
+}
+
+
+.line-one span{position:relative;top: 0em;left: 0px;transform:scale(0.2);border-radius: 50%;
+
+
+	width: 10px;height: 5px;
+	background: #fcaa22
+}
+
+
+
+
+
+
+
+.animation.lines {
+    -webkit-animation: lines 2s infinite  alternate;
+    animation: lines 2s infinite  alternate;
+}
+
+@-webkit-keyframes lines {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50px); }
+}
+@keyframes lines {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100px); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

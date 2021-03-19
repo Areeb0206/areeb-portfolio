@@ -11,6 +11,18 @@ export default function Skills() {
 	return(
 
      <Layout>
+
+
+                     
+
+                
+                
+
+
+
+
+
+
             <div className="skills">
 
 
@@ -178,7 +190,7 @@ export default function Skills() {
 
 
 
-                         <div className="svg">
+                         <div className="svg"> 
 		                
                               <div className="skill-heading">
 
@@ -191,7 +203,7 @@ export default function Skills() {
 
 
                               </div>
-		                       <div className="in-svg">
+		                       <div className="in-svg vert-move " >
 
 
 		                       </div>

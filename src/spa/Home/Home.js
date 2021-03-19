@@ -17,6 +17,45 @@ render()
  
 	return(
 	<div className="index">	
+
+
+	         <div className="animation lines">
+                     
+                     <div className="line-one">
+			                      <span></span>
+			                      <span></span>
+			                      <span></span>
+			                      <span></span>
+			                      <span></span>
+			                       <span></span>
+                      </div>
+                       <div className="line-one">
+			                      <span></span>
+			                      <span></span>
+			                      <span></span>
+			                      <span></span>
+			                      <span></span>
+			                       <span></span>
+                      </div>
+                          <div className="line-one">
+			                      <span></span>
+			                      <span></span>
+			                      <span></span>
+			                      <span></span>
+			                      <span></span>
+			                       <span></span>
+                      </div>
+
+               <div className="line-one">
+			                      <span></span>
+			                      <span></span>
+			                      <span></span>
+			                      <span></span> <span></span>
+			                      <span></span>
+                      </div>
+
+
+	         </div>
                  
 
      <Layout>
