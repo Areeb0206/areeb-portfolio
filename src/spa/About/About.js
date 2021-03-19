@@ -42,7 +42,14 @@ export default function About() {
                                    </div>
 
 
-                                   <div className="sm-icons">
+                           
+
+                                </div>
+
+                 
+
+                                <div className="right-mid">
+        <div className="sm-icons">
 
                                       <a href="https://www.facebook.com/areeb.safvi/"><div className="fb"></div></a>
 
@@ -54,13 +61,6 @@ export default function About() {
 
                                    </div>
                  
-
-                                </div>
-
-                 
-
-                                <div className="right-mid">
-
 
 
                                         <div className="right-top">
@@ -87,7 +87,7 @@ export default function About() {
 
                                           <h2>
                                                Innovative Front-end Developer , building and maintaining responsive interfaces.
-                                               I'm Fresher and i am very passionate and dedicated to my work. I've acquire the skills and knowledge necessay to make your projects a success.
+                                               I'm Fresher and i am very passionate and dedicated to my work. I've acquire the skills and knowledge necessay to make any projects a success.
 												
 
                                           </h2>
@@ -97,7 +97,7 @@ export default function About() {
 
 
                                         <div className="right-bottom">
-                                           <a href="https://drive.google.com/file/d/1iE4yfZV7UfUYRh5nDvHx7K9kWhICt4xq/view"><button>Download CV</button></a>
+                                           <a href="https://drive.google.com/open?id=14JOufIAv0xXAJKHKA5I_Vr_mPwCYv84z&authuser=0"><button>Download CV</button></a>
 
 
                                         </div>
