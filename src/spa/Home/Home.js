@@ -90,8 +90,9 @@ render()
 								    >
 
 									    <div className="one">UI / UX Designer</div>
-									    <div className="one">Developer</div>
+									    <div className="one">React Developer</div>
 								       <div className="one">Blogger</div>
+								          <div className="one">Web Developer</div>
 
 								   </TextLoop>
 

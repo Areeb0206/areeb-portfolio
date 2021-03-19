@@ -44,11 +44,11 @@ export default function About() {
 
                                    <div className="sm-icons">
 
-                                      <div className="fb"></div>
+                                      <a href="https://www.facebook.com/areeb.safvi/"><div className="fb"></div></a>
 
-                                      <div className="insta"></div>
+                                                                           <a href="https://www.instagram.com/rkf786/"> <div className="insta"></div></a>
 
-                                      <div className="linkedin"></div>
+                                                                         <a href="https://www.linkedin.com/in/mohd-areeb-safvi-92602b1a2/">   <div className="linkedin"></div></a>
 
 
 
@@ -75,7 +75,9 @@ export default function About() {
 													    >
 
 														    <div className="two">UI / UX Designer</div>
-														    <div className="two">Developer</div>
+                                <div className="two">React Developer</div>
+                                
+														    <div className="two">Web Developer</div>
 													       <div className="two">Blogger</div>
 
 													   </TextLoop>
