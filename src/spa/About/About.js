@@ -49,7 +49,8 @@ export default function About() {
                  
 
                                 <div className="right-mid">
-        <div className="sm-icons">
+                                
+                                    <div className="sm-icons">
 
                                       <a href="https://www.facebook.com/areeb.safvi/"><div className="fb"></div></a>
 

@@ -134,10 +134,60 @@ export default function Projects() {
 
 
 
-                     </div>
 
 
-                
+
+                          <div className="project2">
+
+                             <div className="project2-left">
+
+
+                                    <div className="link2-image"></div>
+                                    <div className="link2">
+                                     <a href="https://areeb0206.github.io/fitness-freak/">https://areeb0206.github.io/fitness-freak/</a></div>
+                               </div>
+
+                              <div className="project2-right"> 
+                                <h3>Project - 4</h3>
+           
+                                  <h4>Fitness-Freak</h4>
+                                  <p>Its a SPA (single page application) GYM website. There are also different Plans , so that everyone can access more features of our website , like Personal Trainers , Swimming Pool , more to go.</p></div>
+
+
+                          </div>
+                        
+
+
+                          <div className="project1">
+                                <div className="project1-left">
+                                
+
+                                    <h3>Project - 5</h3>
+             
+                                    <h4>Tic-Tac_toe</h4>
+                                    <p>Tic-Tac_toe game is made using React </p>
+
+                                </div>
+
+                                <div className="project1-right">
+
+                                         <div className="link1-image"></div>
+
+                                         <div className="link1"><a href="https://areeb0206.github.io/tic-tac-toe">https://areeb0206.github.io/tic-tac-toe</a></div>
+
+                                </div>
+
+
+
+                            </div>
+
+
+                         </div>
+                  
+
+
+
+                     
 
 
 

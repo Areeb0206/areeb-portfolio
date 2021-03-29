@@ -165,6 +165,7 @@ position: absolute;
 .animation.lines {
     -webkit-animation: lines 2s infinite  alternate;
     animation: lines 2s infinite  alternate;
+
 }
 
 @-webkit-keyframes lines {
