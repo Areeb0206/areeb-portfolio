@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/areebportfolio/static/css/main.24af4917.chunk.css",
-    "main.js": "/areebportfolio/static/js/main.927b5ac3.chunk.js",
-    "main.js.map": "/areebportfolio/static/js/main.927b5ac3.chunk.js.map",
+    "main.js": "/areebportfolio/static/js/main.5da933e1.chunk.js",
+    "main.js.map": "/areebportfolio/static/js/main.5da933e1.chunk.js.map",
     "runtime-main.js": "/areebportfolio/static/js/runtime-main.9fe23954.js",
     "runtime-main.js.map": "/areebportfolio/static/js/runtime-main.9fe23954.js.map",
     "static/css/2.e4e35064.chunk.css": "/areebportfolio/static/css/2.e4e35064.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.e4e35064.chunk.css",
     "static/js/2.e54b616f.chunk.js",
     "static/css/main.24af4917.chunk.css",
-    "static/js/main.927b5ac3.chunk.js"
+    "static/js/main.5da933e1.chunk.js"
   ]
 }
