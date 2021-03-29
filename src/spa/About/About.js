@@ -98,7 +98,7 @@ export default function About() {
 
 
                                         <div className="right-bottom">
-                                           <a href="https://drive.google.com/open?id=14JOufIAv0xXAJKHKA5I_Vr_mPwCYv84z&authuser=0"><button>Download CV</button></a>
+                                           <a href="https://drive.google.com/file/d/1lIFX6lTObyMhPNyzATYV8cSCiHAdJrwY/view"><button>Download CV</button></a>
 
 
                                         </div>
